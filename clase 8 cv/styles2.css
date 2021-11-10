@@ -1,0 +1,20 @@
+* {
+  display: block;
+  margin: auto;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+}
+
+header {
+  background-color: rgb(108, 41, 125);
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  border: solid black 5px;
+}
+main {
+  background-color: rgb(108, 41, 125);
+  color: white;
+  text-align: justify;
+  border: solid black 5px;
+}

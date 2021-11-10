@@ -1,0 +1,79 @@
+* {
+  display: block;
+  margin: auto;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+}
+header {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200805/pngtree-purple-and-blue-galaxy-background-image_386400.jpg);
+}
+
+.pp {
+  border-radius: 50px;
+  height: 150px;
+  width: 150px;
+  left: 670px;
+  top: 20.90985107421875px;
+}
+h1 {
+  background-color: #c67bd9;
+  color: #0c043e;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 45px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+#sobremi {
+  position: absolute;
+  background-color: #0c043e ;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+h2{
+    color:white;
+}
+.white-space {
+  height: 133px;
+}
+.titulos {
+  background-color: #c67bd9;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  color: #0c043e;
+}
+.list {
+  margin: 0 auto 25px;
+  list-style: none;
+  text-align: left;
+}
+
+footer {
+  background-color: #bb5db2;
+  color: #0c043e;
+  display: flex;
+  width: 100%;
+  text-align: justify;  
+
+}
+
+.contacto {
+  color:#0c043e;
+  );
+}
+
+#icoInstagram {
+    background-color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#icoLinkedin {
+    background-color: black;}
