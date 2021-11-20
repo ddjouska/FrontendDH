@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+.firstheader {
+  display: flex;
+  background-color: #222222;
+  color: white;
+  font-size: 10px;
+  font-style: normal;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  margin: 10px;
+}
+nav li {
+  margin-right: 10px;
+}
+.flecha {
+  position: relative;
+  right: 5px;
+}
+/* Aca termina el primer nav */
+
+.menuprincipal {
+  display: flex;
+  background-color: #f0a83e;
+  color: white;
+  font-size: 15px;
+  font-style: normal;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuprincipal ul {
+  display: flex;
+  margin: 15px;
+}
+.menuprincipal li {
+  margin: 5px;
+}
+/* Aca termina el segundo nav */
+/* Aca empieza el main */
+.banner {
+  background-image: url(/img/petshop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.banner h2 {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 64%;
+  top: 35%;
+  width: 364px;
+  height: 54px;
+  font-weight: normal;
+  font-size: 30px;
+}
+.banner h4 {
+  display: flex;
+  color: #3c2313;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 64%;
+  top: 35%;
+  width: 364px;
+  height: 54px;
+  font-weight: normal;
+  font-size: 19px;
+}
+.banner button {
+  display: flex;
+  background-color: #f0a83e;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 75%;
+  top: 35%;
+  width: 170px;
+  height: 54px;
+  font-weight: normal;
+  font-size: 19px;
+}
+/* Segunda parte del main */
+.paw {
+  margin-top: 20px;
+}
+.productos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.productos h2 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.productos ul {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #666666;
+}
+
+.productos li {
+  margin-right: 20px;
+  height: 5px;
+}
+
+/* Termina seccion Productos Destacados */
+
+.tarjetas {
+  display: flex;
+  justify-content: space-around;
+}
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  font-size: 15px;
+  font-weight: bold;
+}
+.precio {
+  color: #f0a83e;
+  font-weight: bold;
+}
